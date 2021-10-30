@@ -1,4 +1,6 @@
-#Python program
+# Box pattern program
+# Start of Program
+
 def pretty_print(num):
     def print_line(n):
         low = abs(n)
@@ -6,3 +8,5 @@ def pretty_print(num):
 
     for i in range(-num + 1, num):
         print_line(i)
+        
+# End of Program
